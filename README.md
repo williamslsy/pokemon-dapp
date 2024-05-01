@@ -1,41 +1,3 @@
-# Obol dAPP Challenge Submission
-
-Welcome to Obol's frontend and Web3 developer challenge, focusing on modern web technologies and blockchain interactions.
-
-## Intro
-
-Obol's mission expands to the world of Web3! Not only do we want to list and preview Pokemon, but we also want to allow users to interact with them using Ethereum blockchain technology.
-
-## The Assignment
-
-Enhance the Pokemon application to integrate Web3 functionalities. Users should be able to connect their MetaMask wallet and "Collect" a Pokemon by signing a simple Ethereum transaction.
-
-## Key Features and Technical Requirements
-
-- **MetaMask Wallet Connection:** Implement functionality to connect to a user's MetaMask wallet using libraries like ethers.js, web3-react, or useDapp.
-- **Ethereum Transaction Signing:** Allow users to "Collect" a Pokemon by initiating and signing a simple Ethereum transaction.
-- **Server-Side Rendering (SSR):** Continue using SSR for enhanced performance and SEO.
-- **Tooltip Preview with Web Scraping:** Implement a tooltip with basic Pokemon info using server-side web scraping.
-- **Tailwind CSS and Atomic Design:** Use Tailwind CSS for styling and follow the Atomic Design methodology for component development.
-- **Use of React Hooks and Custom Hooks:** Emphasize the use of React Hooks for state and lifecycle management, particularly in managing Web3 interactions.
-- **API Integration and Web3 Integration:** Use the provided Pokemon API and integrate Web3 functionalities for blockchain interactions.
-- **Deployment:** Deploy the application ensuring that both SSR and Web3 functionalities work seamlessly in the production environment.
-
-## API and Blockchain Endpoints
-
-- Pokemon List: `https://pokeapi.co/api/v2/pokemon?limit=151`
-- Individual Pokemon Data: `https://pokeapi.co/api/v2/pokemon/{id-or-name}/`
-- Bulbapedia Link: `https://bulbapedia.bulbagarden.net/wiki/{name}`
-
-## Evaluation Criteria
-
-- Successful integration of Web3 functionalities.
-- Clean and efficient implementation of SSR, data state, and web scraping.
-- Quality and organization of code, following best practices.
-- Effective use of React Hooks and custom hooks.
-- Styling accuracy and adherence to design patterns.
-- Documentation and ease of understanding.
-
 ## Run the app
 
 1. Clone the repository.
@@ -100,6 +62,6 @@ Run the development server:
 
 ## Deploy
 
-Here's the link to the Deployed [CollectPokemon Contract](https://etherscan.io/address/0x5FdD5f2c795628BA28ec64DBf19c20DaE1911385)
+Here's the link to the Deployed [CollectPokemon Contract](https://etherscan.io/address/0xDf2Ea913f3C361Fb79579dD9f910E08aa5F5873D)
 
-App Currently Deployed to Vercel: [Obol Pokèmon dApp](https://williamslsy-obol-d-app-challenge.vercel.app/)
+App Currently Deployed to Vercel: [Pokèmon dApp](https://pokemon-dapp.vercel.app/)
